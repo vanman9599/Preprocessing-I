@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Condensed" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Roboto+Condensed" rel="stylesheet">
   <title>My Resume</title>
 
   <link rel="stylesheet" href="css/index.css">
@@ -15,11 +15,83 @@
 </head>
 
 <body>
-  <h1>My Resume</h1>
+
+  
   <div class="container">
+      
+    <header>
+        <span class="text-logo">Van Jordan</span>
+        <nav>
+          <a href="#">Home</a>
+          <a href="index.html">Resume</a>
+          <a href="#">Portfolio</a>
+          <a href="#">About</a>
+        </nav>
+    </header>
+    <div class="heading">
+        <h2>Intro</h2>
+     </div>
       <section class="intro">
+        
           <img alt="Picture of a man with a laptop" src="img/laptop-man.jpg">
+          <div class="intro-content">
+            <p>Hi, I build fantastic websites using the lastest technologies.</p>
+          </div>
+      </section>
+       <div class="heading">
+          <h2>My Skills</h2>
+       </div>
+        
+      <section class="skills">
+        
+        <div class="content-box">
+            <h3>HTML, CSS, Javascript</h3>
+            <p>I understand all the fundamental skills to create engaging websites.</p>
+            <button>See Portfolio</button>
+        </div>
+        <div class="content-box">
+            <h3>React</h3>
+            <p>I build incredible front-ends using this amazing technology.</p>
+            <button>See Portfolio</button>
+        </div>
+        <div class="content-box">
+            <h3>Node</h3>
+            <p>Node leverages Javascript on the server-side to add 
+              backend logic to your website. 
+            </p>
+            <button>See Portfolio</button>
+        </div>
+        <div class="content-box">
+                        <h3>Databases</h3>
+              <ul>I've worked with most databases including:
+                <li>Microsoft SQL Server</li>
+                <li>MySQL</li>
+                <li>Oracle</li>
+                 
+              </ul>
+            <button>See Portfolio</button>
+        </div>
           
+      </section>
+      <div class="heading">
+          <h2>Work History</h2>
+       </div>
+      <section class="work-history">
+        <div class="work-content">
+         
+          <table>
+           <tr><td>Years</td><td>Company</td><td>Title</td><td>Tech Used</td></tr>
+           <tr><td>1 </td><td>Livecube</td><td>Web/Database Developer</td><td>Coldfusion, MS SQL Server</td></tr>
+           <tr><td>1</td><td>Hunter & Associates</td><td>Web/Database Developer</td><td>Coldfusion, MS SQL Server</td></tr>
+           <tr><td>3</td><td>Freelance</td><td>Web/Database Developer</td><td>PHP/CodeIgniter, MySQL</td></tr>
+          </table>
+        </div>
+      </section>
+      <div class="heading">
+          <h2>Contact Me</h2>
+       </div>
+      <section class="contact">
+          <a href="mailto:vanjordan46@hotmail.com">vanjordan46@hotmail.com</a>
       </section>
   </div>
 </body>
